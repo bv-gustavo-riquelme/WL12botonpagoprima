@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Servipag">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="FirmaServipag"/>
+                <xs:element ref="IdTrxServipag"/>
+                <xs:element ref="IdTxCliente"/>
+                <xs:element ref="EstadoPago"/>
+                <xs:element ref="MensajePago"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FirmaServipag" type="xs:string"/>
+    <xs:element name="IdTrxServipag" type="xs:string"/>
+    <xs:element name="IdTxCliente" type="xs:string"/>
+    <xs:element name="EstadoPago" type="xs:string"/>
+    <xs:element name="MensajePago" type="xs:string"/>
+</xs:schema>

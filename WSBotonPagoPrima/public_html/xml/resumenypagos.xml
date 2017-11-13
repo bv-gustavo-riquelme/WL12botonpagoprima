@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<ResumenConHeader>
+  <IdentificacionMensaje>
+    <Codigo>RESPAG</Codigo>
+    <Version>1.0</Version>
+    <De>PAGWEB</De>
+    <FechaCreacion>2006-11-27-03:00</FechaCreacion>
+    <Accion>PAGAR</Accion>
+  </IdentificacionMensaje>
+  <InfoNavegacion>
+    <IDNavegacion>744</IDNavegacion>
+    <Entrada>1</Entrada>
+  </InfoNavegacion>
+  <RutCliente>7623538</RutCliente>
+  <NombreCliente>wea</NombreCliente>
+  <FechaConsulta>2006-11-27T21:21:26.734-03:00</FechaConsulta>
+  <FechaUF>2006-11-27-03:00</FechaUF>
+  <ValorUF>18534.55</ValorUF>
+  <Turno>2006-11-09T00:00:00.000-03:00</Turno>
+  <Titulos>
+    <Titulo>Normal</Titulo>
+    <Titulo>Min</Titulo>
+  </Titulos>
+  <ProductosPorPagar>
+    <Entrada contador="1" seleccionado="false" disabled="false">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>16</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-02-10-03:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>214265</EnPesos>
+            <EnUF>11.9107</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="2" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>17</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-03-10-03:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>213887</EnPesos>
+            <EnUF>11.8902</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="3" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>18</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-04-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>213820</EnPesos>
+            <EnUF>11.89</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="4" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>19</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-05-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>214892</EnPesos>
+            <EnUF>11.8898</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="5" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>20</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-06-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>215567</EnPesos>
+            <EnUF>11.8895</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="6" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>21</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-07-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>217124</EnPesos>
+            <EnUF>11.8893</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="7" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>22</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-08-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>217227</EnPesos>
+            <EnUF>11.889</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="8" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>23</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-09-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>218349</EnPesos>
+            <EnUF>11.8886</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="9" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>24</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-10-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>218957</EnPesos>
+            <EnUF>11.8884</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="10" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>16</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-02-10-03:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>214265</EnPesos>
+            <EnUF>11.9107</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="11" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>17</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-03-10-03:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>213887</EnPesos>
+            <EnUF>11.8902</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="12" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>18</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-04-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>213820</EnPesos>
+            <EnUF>11.89</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="13" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>19</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-05-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>214892</EnPesos>
+            <EnUF>11.8898</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="14" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>20</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-06-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>215567</EnPesos>
+            <EnUF>11.8895</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="15" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>21</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-07-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>217124</EnPesos>
+            <EnUF>11.8893</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="16" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>22</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-08-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>217227</EnPesos>
+            <EnUF>11.889</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="17" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>23</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-09-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>218349</EnPesos>
+            <EnUF>11.8886</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="18" seleccionado="false" disabled="true">
+      <Producto>
+        <CodigoProducto>3021</CodigoProducto>
+        <DescripcionProducto>Credito Hipotecario Libre Eleccion</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>4</TipoCuota>
+      </Producto>
+      <InfoCajas>
+        <Creditos>
+          <NumDividendo>24</NumDividendo>
+        </Creditos>
+      </InfoCajas>
+      <Cuota>
+        <FechaVencimiento>2006-10-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <CuotaOpcion>
+          <CuotaMin>
+            <EnPesos>218957</EnPesos>
+            <EnUF>11.8884</EnUF>
+            <Detalle>
+              <Cargo descripcion="desc">2.30</Cargo>
+            </Detalle>
+          </CuotaMin>
+        </CuotaOpcion>
+        <Pago>0</Pago>
+        <Estado>Vigente</Estado>
+      </Cuota>
+    </Entrada>
+    <TotalPorPagar>0</TotalPorPagar>
+    <TotalDeuda>3888176</TotalDeuda>
+  </ProductosPorPagar>
+  <ProductosPagados>
+    <Entrada contador="19">
+      <Producto>
+        <CodigoProducto>1</CodigoProducto>
+        <DescripcionProducto>M.H. LIBRE ELECCION</DescripcionProducto>
+        <NumProducto>6123</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>1</TipoCuota>
+      </Producto>
+      <Cuota>
+        <FechaVencimiento>2006-08-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <FechaPago>2006-08-09-04:00</FechaPago>
+        <ValorUF>0.0</ValorUF>
+        <CuotaFija>
+          <EnPesos>217227</EnPesos>
+          <EnUF>11.889</EnUF>
+        </CuotaFija>
+        <TotalPagado>217227</TotalPagado>
+        <EstadoCaja estado="Pagado"/>
+      </Cuota>
+    </Entrada>
+    <Entrada contador="20">
+      <Producto>
+        <CodigoProducto>1</CodigoProducto>
+        <DescripcionProducto>M.H. LIBRE ELECCION</DescripcionProducto>
+        <NumProducto>6198</NumProducto>
+        <CodEmpresa>2</CodEmpresa>
+        <TipoCuota>1</TipoCuota>
+      </Producto>
+      <Cuota>
+        <FechaVencimiento>2006-08-10-04:00</FechaVencimiento>
+        <MedioPago/>
+        <FechaPago>2006-08-09-04:00</FechaPago>
+        <ValorUF>0.0</ValorUF>
+        <CuotaFija>
+          <EnPesos>128504</EnPesos>
+          <EnUF>7.0331</EnUF>
+        </CuotaFija>
+        <TotalPagado>128504</TotalPagado>
+        <EstadoCaja estado="Pagado"/>
+      </Cuota>
+    </Entrada>
+    <TotalPagado>345731</TotalPagado>
+  </ProductosPagados>
+  <Convenios>
+    <Convenio>
+      <Codigo>1</Codigo>
+      <Descripcion>Banco de Chile</Descripcion>
+    </Convenio>
+    <Convenio>
+      <Codigo>2</Codigo>
+      <Descripcion>Banco Santander Santiago</Descripcion>
+    </Convenio>
+    <Convenio>
+      <Codigo>3</Codigo>
+      <Descripcion>Servipag</Descripcion>
+    </Convenio>
+  </Convenios>
+  <TotalPagar>0</TotalPagar>
+</ResumenConHeader>

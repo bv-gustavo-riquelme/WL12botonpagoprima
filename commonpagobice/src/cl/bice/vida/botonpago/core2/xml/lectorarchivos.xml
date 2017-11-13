@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<lector>
+    <!-- ARCHIVO AUTOAJUSTABLE - REMESAS HIPOTECARIA CSV DELIMITADO ; -->    
+    <archivo nombre="2_04" tipo="Delimitado" delimitador=";"  descripcion="Autoajustable - Bice Hipotecaria" registroInicio="1" usarUltimoRegistro="true">
+        <campo id="inv"  indexTab="1" type="java.lang.String"></campo>    
+        <campo id="producto"  indexTab="2" type="java.lang.String"></campo>    
+        <campo id="objetivo"  indexTab="3" type="java.lang.String"></campo>    
+        <campo id="nombre_titular"  indexTab="4" type="java.lang.String"></campo>    
+        <campo id="rut"  indexTab="5" type="java.lang.String"></campo>    
+        <campo id="numero_operacion"  indexTab="6" type="java.lang.Long"></campo>    
+        <campo id="numero_dividendo"  indexTab="7" type="java.lang.Long"></campo>    
+        <campo id="dividendo_generados"  indexTab="8" type="java.lang.Integer"></campo>    
+        <campo id="dividendo_totales"  indexTab="9" type="java.lang.Integer"></campo>    
+        <campo id="nominal_antes_uf"  indexTab="10" type="java.lang.Float"></campo>
+        <campo id="nominal_despues_uf"  indexTab="11" type="java.lang.Float"></campo>
+        <campo id="insoluto_antes_uf"  indexTab="12" type="java.lang.Float"></campo>
+        <campo id="insoluto_despues_uf"  indexTab="13" type="java.lang.Float"></campo>
+        <campo id="montopagado_uf"  indexTab="14" type="java.lang.Float"></campo>
+        <campo id="tasa_credito"  indexTab="15" type="java.lang.Float"></campo>
+        <campo id="tasa_venta"  indexTab="16" type="java.lang.Float"></campo>
+        <campo id="fecha_vencimiento" indexTab="17" type="java.util.Date" formato="yyyyMMdd"></campo>
+        <campo id="fecha_pago"  indexTab="18" type="java.util.Date" formato="yyyyMMdd"></campo>
+        <campo id="valor_uf_informado"  indexTab="19" type="java.lang.Float"></campo>
+        <campo id="valor_a_remesar"  indexTab="20" type="java.lang.String"></campo>
+    </archivo>
+
+    <!-- ARCHIVO AUTOAJUSTABLE - REMESAS HIPOTECARIA LA CONSTRUCCION CSV DELIMITADO ; -->    
+    <archivo nombre="2_06" tipo="Delimitado" delimitador=";"  descripcion="Autoajustable - HCL (La Construccion)" registroInicio="1" usarUltimoRegistro="true">
+        <campo id="numero_operacion"  indexTab="1" type="java.lang.Long"></campo>    
+        <campo id="verificador"  indexTab="2" type="java.lang.String"></campo>    
+        <campo id="numero_dividendo"  indexTab="3" type="java.lang.Long"></campo>    
+        <campo id="nombre_titular"  indexTab="4" type="java.lang.String"></campo>    
+        <campo id="tasa_credito"  indexTab="5" type="java.lang.Float"></campo>
+        <campo id="inicial_recaudado"  indexTab="6" type="java.lang.Double"></campo>
+        <campo id="saldo_anterior"  indexTab="7" type="java.lang.Double"></campo>
+        <campo id="amortizacion_extraordinaria"  indexTab="8" type="java.lang.Float"></campo>
+        <campo id="amortizacion_extra_nominal"  indexTab="9" type="java.lang.Float"></campo>
+        <campo id="saldo_entrada"  indexTab="10" type="java.lang.Double"></campo>
+        <campo id="amortizacion_uf"  indexTab="11" type="java.lang.Float"></campo>
+        <campo id="interes_uf"  indexTab="12" type="java.lang.Float"></campo>
+        <campo id="montopagado_uf"  indexTab="13" type="java.lang.Float"></campo>
+        <campo id="saldo_uf"  indexTab="14" type="java.lang.Float"></campo>
+        <campo id="diferencia_endoso"  indexTab="15" type="java.lang.Double"></campo>
+        <campo id="num_provision"  indexTab="16" type="java.lang.Double"></campo>
+        <campo id="dividendos_morosos"  indexTab="17" type="java.lang.Integer"></campo>
+        <campo id="tasacion"  indexTab="18" type="java.lang.String"></campo>
+    </archivo>    
+    
+   <!-- ARCHIVO REMESAS NORMAL MUTUOS BICE -->
+    <archivo nombre="1_08" tipo="Delimitado" delimitador=";" descripcion="Normal - Mutuos Bice" registroInicio="1" usarUltimoRegistro="true">
+        <campo id="compania" indexTab="1" type="java.lang.String"></campo>
+        <campo id="numero_operacion" indexTab="2" type="java.lang.Long"></campo>
+        <campo id="rut_cliente"    indexTab="3" type="java.lang.String"></campo>
+        <campo id="digito_verificador"  indexTab="4" type="java.lang.String"></campo>
+        <campo id="nombre"   indexTab="5" type="java.lang.String"></campo>
+        <campo id="total_dividendos"   indexTab="6" type="java.lang.Long"></campo>
+        <campo id="numero_dividendo"   indexTab="7" type="java.lang.Long"></campo>
+        <campo id="fecha_vencimiento"   indexTab="8" type="java.util.Date" formato="dd/MM/yyyy"></campo>
+        <campo id="fecha_pago"   indexTab="9" type="java.util.Date" formato="dd/MM/yyyy"></campo>
+        <campo id="dividendo_total_uf"   indexTab="10" type="java.lang.Float"></campo>
+        <campo id="dividendo_pesos"   indexTab="11" type="java.lang.Double"></campo>
+        <campo id="seguro_uf"   indexTab="12" type="java.lang.Double"></campo>
+        <campo id="seguro_pesos"   indexTab="13" type="java.lang.Double"></campo>
+        <campo id="interes_uf"   indexTab="14" type="java.lang.Float"></campo>
+        <campo id="interes_pesos"   indexTab="15" type="java.lang.Double"></campo>
+        <campo id="total_div_uf"   indexTab="16" type="java.lang.Float"></campo>
+        <campo id="total_div_pesos"   indexTab="17" type="java.lang.Double"></campo>
+    </archivo>   
+    
+    <!-- ARCHIVO REMESAS NORMAL BICE HIPOTECARIA -->
+    <archivo nombre="1_04" tipo="Delimitado" delimitador=";" descripcion="Normal - Mutuos Bice Hipotecaria" registroInicio="1" usarUltimoRegistro="true">
+        <campo id="compania" indexTab="1" type="java.lang.String"></campo>
+        <campo id="numero_operacion" indexTab="2" type="java.lang.Long"></campo>
+        <campo id="rut_cliente"    indexTab="3" type="java.lang.String"></campo>
+        <campo id="digito_verificador"  indexTab="4" type="java.lang.String"></campo>
+        <campo id="nombre"   indexTab="5" type="java.lang.String"></campo>
+        <campo id="total_dividendos"   indexTab="6" type="java.lang.Long"></campo>
+        <campo id="numero_dividendo"   indexTab="7" type="java.lang.Long"></campo>
+        <campo id="fecha_vencimiento"   indexTab="8" type="java.util.Date" formato="dd/MM/yyyy"></campo>
+        <campo id="fecha_pago"   indexTab="9" type="java.util.Date" formato="dd/MM/yyyy"></campo>
+        <campo id="dividendo_total_uf"   indexTab="10" type="java.lang.Float"></campo>
+        <campo id="dividendo_pesos"   indexTab="11" type="java.lang.Double"></campo>
+        <campo id="seguro_uf"   indexTab="12" type="java.lang.Double"></campo>
+        <campo id="seguro_pesos"   indexTab="13" type="java.lang.Double"></campo>
+        <campo id="interes_uf"   indexTab="14" type="java.lang.Float"></campo>
+        <campo id="interes_pesos"   indexTab="15" type="java.lang.Double"></campo>
+        <campo id="total_div_uf"   indexTab="16" type="java.lang.Float"></campo>
+        <campo id="total_div_pesos"   indexTab="17" type="java.lang.Double"></campo>
+        <campo id="comision_uf"   indexTab="18" type="java.lang.Double"></campo>
+        <campo id="comision_pesos"   indexTab="19" type="java.lang.Double"></campo>
+        <campo id="marca"   indexTab="20" type="java.lang.String"></campo>
+    </archivo>   		
+        
+    <!-- ARCHIVO REMESAS NORMAL HIPOTECARIA LA CONSTRUCCION (HLC) -->
+    <archivo nombre="1_06" tipo="Delimitado" delimitador=";" descripcion="Normal - HLC Mutuos La Construccion" registroInicio="1">
+        <campo id="numero_operacion" indexTab="1" type="java.lang.Long"></campo>
+        <campo id="numero_dividendo" indexTab="2" type="java.lang.Long"></campo>
+        <campo id="fecha_pago"   indexTab="3" type="java.util.Date" formato="dd/MM/yyyy"></campo>
+        <campo id="total_div_uf"   indexTab="4" type="java.lang.Float"></campo>
+        <campo id="letra_H_C" indexTab="5" type="java.lang.String"></campo>
+    </archivo>        
+    
+    <!-- ARCHIVO REMESAS NORMAL BICE CONCRECES -->
+    <archivo nombre="1_05" tipo="Delimitado" delimitador=";" descripcion="Normal - Mutuos Concreces" registroInicio="1">
+        <campo id="numero_operacion" indexTab="1" type="java.lang.String"></campo>
+        <campo id="numero_dividendo" indexTab="2" type="java.lang.Long"></campo>        
+        <campo id="nombre"  indexTab="3" type="java.lang.String"></campo>
+        <campo id="fecha_pago" indexTab="4" type="java.util.Date" formato="dd/MM/yyyy"></campo>
+        <campo id="valor_uf "  indexTab="5" type="java.lang.Float"></campo>
+        <campo id="amortizacion" indexTab="6" type="java.lang.Float"></campo>
+        <campo id="interes_uf"  indexTab="7" type="java.lang.Float"></campo>
+        <campo id="interes_penal_uf"   indexTab="8" type="java.lang.Float"></campo>
+        <campo id="dividendo_total_uf"   indexTab="9" type="java.lang.Float"></campo>
+        <campo id="dividendo_pesos"   indexTab="10" type="java.lang.Double"></campo>
+    </archivo>        
+   
+    <!-- ARCHIVO REMESAS NORMAL CIMENTA -->
+    <archivo nombre="1_02" tipo="Delimitado" delimitador=";" descripcion="Normal - Mutuos Cimenta" registroInicio="1">
+        <campo id="numero_operacion" indexTab="1" type="java.lang.Long"></campo>
+        <campo id="numero_dividendo"   indexTab="2" type="java.lang.Long"></campo>
+        <campo id="fecha_pago"   indexTab="3" type="java.util.Date" formato="yyyyMMdd"></campo>
+        <campo id="dividendo_total_uf"   indexTab="4" type="java.lang.String"></campo>
+        <campo id="dividendo_total_uf2"   indexTab="5" type="java.lang.String"></campo>
+    </archivo>   
+
+</lector>

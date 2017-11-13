@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<escritor>
+  <!-- PAGMUT AUTOAJUSTABLE - BICE HIPOTECARIA - LARGO FIJO -->    
+    <archivo nombre="2_04" tipo="LargoFijo" descripcion="PAGMUT - Autoajustable - Bice Hipotecaria">
+        <campo id="fecha_proceso" type="java.util.Date" formato="yyyyMMdd" largo="8"></campo>    
+        <campo id="campo_duro_1" hardvalue="0" type="java.lang.String" largo="6" rellenarDerecha="0"></campo>    
+        <campo id="campo_duro_2" hardvalue="0" type="java.lang.String" largo="3" rellenarDerecha="0"></campo>    
+        <campo id="compania" hardvalue="BICE VIDA" type="java.lang.String" largo="10" rellenarDerecha=" "></campo>    
+        <campo id="campo_duro_3" hardvalue="0" type="java.lang.String" largo="3" rellenarDerecha="0"></campo>    
+        <campo id="mutuaria" type="java.lang.String" largo="10" rellenarDerecha=" "></campo>
+        <campo id="amortizacion_extra" type="java.lang.Float" largo="15" decimales="2" sepdecimales="false" rellenarIzquierda="0"></campo>
+        <campo id="campo_duro_4" hardvalue="0" type="java.lang.String" largo="13" rellenarDerecha="0"></campo>    
+        <campo id="campo_duro_5" hardvalue="PH" type="java.lang.String" largo="10" rellenarDerecha=" "></campo>    
+        <campo id="campo_duro_6" hardvalue="E0" type="java.lang.String" largo="2" ></campo>    
+        <campo id="campo_duro_7" hardvalue="0" type="java.lang.String" largo="6" rellenarDerecha="0"></campo>    
+        <campo id="numero_operacion" type="java.lang.String" largo="10" rellenarDerecha=" "></campo>    
+        <campo id="campo_duro_8" hardvalue=" " type="java.lang.String" largo="10" rellenarDerecha=" "></campo>    
+        <campo id="tasa_credito" type="java.lang.Float" largo="5" decimales="2" sepdecimales="false" rellenarIzquierda="0"></campo>    
+        <campo id="signo_amortizacion" hardvalue="+" type="java.lang.String" largo="1"></campo>   
+        <campo id="campo_duro_9" hardvalue="00000" type="java.lang.String" largo="5"></campo>    
+        <campo id="monto_amortizacion" type="java.lang.Float" largo="15" decimales="0" sepdecimales="false" rellenarIzquierda="0"></campo>    
+        <campo id="campo_duro_decimales" hardvalue="00" type="java.lang.String" largo="2"></campo>    
+        <campo id="campo_duro_10" hardvalue="000" type="java.lang.String" largo="3"></campo>    
+        <campo id="campo_duro_11" hardvalue="000" type="java.lang.String" largo="3"></campo>    
+        <campo id="campo_duro_12" hardvalue="N" type="java.lang.String" largo="1" ></campo>    
+        <campo id="campo_duro_13" hardvalue="182" type="java.lang.String" largo="3"></campo>    
+        <campo id="campo_duro_14" hardvalue="000" type="java.lang.String" largo="3"></campo>    
+    </archivo>
+
+    <!-- PAGMUT AUTOAJUSTABLE - HCL (LA CONSTRUCCION) - LARGO FIJO -->    
+    <archivo nombre="2_06" tipo="LargoFijo" descripcion="PAGMUT - Autoajustable - HCL La Construccion">
+        <campo id="fecha_proceso" type="java.util.Date" formato="yyyyMMdd" largo="8"></campo>    
+        <campo id="campo_duro_1" hardvalue="0" type="java.lang.String" largo="6" rellenarDerecha="0"></campo>    
+        <campo id="campo_duro_2" hardvalue="0" type="java.lang.String" largo="3" rellenarDerecha="0"></campo>    
+        <campo id="compania" hardvalue="BICE VIDA" type="java.lang.String" largo="10" rellenarDerecha=" "></campo>    
+        <campo id="campo_duro_3" hardvalue="0" type="java.lang.String" largo="3" rellenarDerecha="0"></campo>    
+        <campo id="mutuaria" type="java.lang.String" largo="10" rellenarDerecha=" "></campo>
+        <campo id="amortizacion_extra" type="java.lang.Float" largo="15" decimales="2" sepdecimales="false" rellenarIzquierda="0"></campo>
+        <campo id="campo_duro_4" hardvalue="0" type="java.lang.String" largo="13" rellenarDerecha="0"></campo>    
+        <campo id="campo_duro_5" hardvalue="PH" type="java.lang.String" largo="10" rellenarDerecha=" "></campo>    
+        <campo id="campo_duro_6" hardvalue="E0" type="java.lang.String" largo="2" ></campo>    
+        <campo id="campo_duro_7" hardvalue="0" type="java.lang.String" largo="6" rellenarDerecha="0"></campo>    
+        <campo id="numero_operacion" type="java.lang.String" largo="10" rellenarDerecha=" "></campo>    
+        <campo id="campo_duro_8" hardvalue=" " type="java.lang.String" largo="10" rellenarDerecha=" "></campo>    
+        <campo id="tasa_credito" type="java.lang.Float" largo="5" decimales="2" sepdecimales="false" rellenarIzquierda="0"></campo>    
+        <campo id="signo_amortizacion" hardvalue="+" type="java.lang.String" largo="1"></campo>   
+        <campo id="campo_duro_9" hardvalue="00000" type="java.lang.String" largo="5"></campo>    
+        <campo id="monto_amortizacion" type="java.lang.Float" largo="15" decimales="0" sepdecimales="false" rellenarIzquierda="0"></campo>    
+        <campo id="campo_duro_decimales" hardvalue="00" type="java.lang.String" largo="2"></campo>    
+        <campo id="campo_duro_10" hardvalue="000" type="java.lang.String" largo="3" rellenarDerecha="0"></campo>    
+        <campo id="campo_duro_11" hardvalue="000" type="java.lang.String" largo="3" rellenarDerecha="0"></campo>    
+        <campo id="campo_duro_12" hardvalue="N" type="java.lang.String" largo="1" ></campo>    
+        <campo id="campo_duro_13" hardvalue="182" type="java.lang.String" largo="3"></campo>    
+        <campo id="campo_duro_14" hardvalue="000" type="java.lang.String" largo="3" rellenarDerecha="0"></campo>    
+    </archivo>
+    
+     <!-- PAGMUT NORMAL - BICE HIPOTECARIA - LARGO FIJO -->    
+    <archivo nombre="1_04" tipo="LargoFijo" descripcion="PAGMUT - Normal - Bice Hipotecaria">
+        <campo id="mutuaria" type="java.lang.String" largo="10" rellenarDerecha=" "></campo>   
+        <campo id="numero_operacion" type="java.lang.String" largo="30" rellenarDerecha=" "></campo> 
+        <campo id="numero_dividendo" type="java.lang.int" largo="3" rellenarIzquierda="0"></campo>    
+        <campo id="fecha_proceso" type="java.util.Date" formato="yyyyMMdd" largo="8"></campo>
+        <campo id="dividendo_total_uf" type="java.lang.Float" largo="16" decimales="5" sepdecimales="false" rellenarIzquierda="0"></campo>
+    </archivo>
+    
+     <!-- PAGMUT NORMAL - HLC (La Construcción) - LARGO FIJO -->    
+    <archivo nombre="1_06" tipo="LargoFijo" descripcion="PAGMUT - Normal - HLC La Construcción">
+        <campo id="mutuaria" type="java.lang.String" largo="10" rellenarDerecha=" "></campo>   
+        <campo id="numero_operacion" type="java.lang.String" largo="30" rellenarDerecha=" "></campo> 
+        <campo id="numero_dividendo" type="java.lang.int" largo="3" rellenarIzquierda="0"></campo>    
+        <campo id="fecha_proceso" type="java.util.Date" formato="yyyyMMdd" largo="8"></campo>
+        <campo id="dividendo_total_uf" type="java.lang.Float" largo="16" decimales="5" sepdecimales="false" rellenarIzquierda="0"></campo>    
+    </archivo>    
+    
+     <!-- PAGMUT NORMAL - MUTUOSBICE - LARGO FIJO -->    
+    <archivo nombre="1_08" tipo="LargoFijo" descripcion="PAGMUT - Normal - MUTUOSBICE">
+        <campo id="mutuaria" type="java.lang.String" largo="10" rellenarDerecha=" "></campo>   
+        <campo id="numero_operacion" type="java.lang.String" largo="30" rellenarDerecha=" "></campo> 
+        <campo id="numero_dividendo" type="java.lang.int" largo="3" rellenarIzquierda="0"></campo>    
+        <campo id="fecha_proceso" type="java.util.Date" formato="yyyyMMdd" largo="8"></campo>
+        <campo id="dividendo_total_uf" type="java.lang.Float" largo="16" decimales="5" sepdecimales="false" rellenarIzquierda="0"></campo>    
+    </archivo>   
+    
+     <!-- PAGMUT NORMAL - CONCRECES - LARGO FIJO -->    
+    <archivo nombre="1_05" tipo="LargoFijo" descripcion="PAGMUT - Normal - CONCRECES">
+        <campo id="mutuaria" type="java.lang.String" largo="10" rellenarDerecha=" "></campo>   
+        <campo id="numero_operacion" type="java.lang.String" largo="30" rellenarDerecha=" "></campo> 
+        <campo id="numero_dividendo" type="java.lang.int" largo="3" rellenarIzquierda="0"></campo>    
+        <campo id="fecha_proceso" type="java.util.Date" formato="yyyyMMdd" largo="8"></campo>
+        <campo id="dividendo_total_uf" type="java.lang.Float" largo="16" decimales="5" sepdecimales="false" rellenarIzquierda="0"></campo>    
+    </archivo>     
+    
+     <!-- PAGMUT NORMAL - CIMENTA - LARGO FIJO -->    
+    <archivo nombre="1_02" tipo="LargoFijo" descripcion="PAGMUT - Normal - CIMENTA">
+        <campo id="mutuaria" type="java.lang.String" largo="10" rellenarDerecha=" "></campo>   
+        <campo id="numero_operacion" type="java.lang.String" largo="30" rellenarDerecha=" "></campo> 
+        <campo id="numero_dividendo" type="java.lang.int" largo="3" rellenarIzquierda="0"></campo>    
+        <campo id="fecha_proceso" type="java.util.Date" formato="yyyyMMdd" largo="8"></campo>
+        <campo id="dividendo_total_uf" type="java.lang.Float" largo="16" decimales="5" sepdecimales="false" rellenarIzquierda="0"></campo>    
+    </archivo>       
+
+</escritor>

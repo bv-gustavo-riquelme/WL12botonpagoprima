@@ -1,0 +1,25 @@
+<BancoBICE>
+  <xml>
+    <boton-pago-bice version='1.0'>
+      <cabecera>
+        <id-empresa-cliente>9665641001</id-empresa-cliente>
+        <monto-total>57841.0</monto-total>
+        <id-transaccion>494981</id-transaccion>
+        <fecha-vencimiento>2012-01-16</fecha-vencimiento>
+      </cabecera>
+      <pagos>
+        <pago>
+          <cantidad>1</cantidad>
+          <descripcion>Salud Asegurada - 2300 - 8773</descripcion>
+          <monto>8773.0</monto>
+        </pago>
+        <pago>
+          <cantidad>1</cantidad>
+          <descripcion>APV Inversión - 1060 - 49068</descripcion>
+          <monto>49068.0</monto>
+        </pago>
+      </pagos>
+    </boton-pago-bice>
+  </xml>
+  <firma>Zy7R7J6vDKERrbYq0eKZCn48g+ZJttBOq2xGcWLXDo1mfHw6IkmUZPzom2SHMus/XkBRqpjWsLtnRaPoCtsASwrpWH2KZ8RnK3GTtt2QhmSeS5OJI8uVyPQa85MddwMG5xNEQ0Tlv3lJ1mWmpm1PMjdoRucC9nLh3HlAZ6xQShk=</firma>
+</BancoBICE>

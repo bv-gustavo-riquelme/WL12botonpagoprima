@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<weblogic-web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-web-app http://xmlns.oracle.com/weblogic/weblogic-web-app/1.5/weblogic-web-app.xsd"
+                  xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">
+<library-ref>
+        <library-name>log4j_jar</library-name>
+        <specification-version>1.2</specification-version>
+        <implementation-version>1.2.15</implementation-version>
+        <context-root>log4jWS</context-root>
+    </library-ref>
+    <library-ref>
+        <library-name>apachePoiEar</library-name>
+        <specification-version>3.8</specification-version>
+        <implementation-version>3.8</implementation-version>
+        <context-root>apachePoiWS</context-root>
+    </library-ref>
+    <library-ref>
+        <library-name>ApacheFOP</library-name>
+        <specification-version>1.2</specification-version>
+        <implementation-version>1.2</implementation-version>
+        <context-root>ApacheFOPWS</context-root>
+    </library-ref>
+    <library-ref>
+        <library-name>Dom4j</library-name>
+        <specification-version>1.6.1</specification-version>
+        <implementation-version>1.6.1</implementation-version>
+        <context-root>Dom4jWS</context-root>
+    </library-ref>
+    <library-ref>
+        <library-name>CigarraLibs</library-name>
+        <specification-version>1.0</specification-version>
+        <implementation-version>1.0</implementation-version>
+        <context-root>CigarraLibsWS</context-root>
+    </library-ref>
+    <library-ref>
+        <library-name>jsf</library-name>
+        <specification-version>2.1</specification-version>
+        <context-root>jsfWS</context-root>
+    </library-ref>
+</weblogic-web-app>

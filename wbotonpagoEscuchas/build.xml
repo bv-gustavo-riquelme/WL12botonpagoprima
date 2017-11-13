@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<project name="webbotonpagoEscuchas" default="all" basedir=".">
+    <property file="build.properties"/>
+    <path id="library.JSP.Runtime">
+        <pathelement location="${lib.home}/JSP_Runtime/javax.servlet_2.2.0.0_3-0.jar"/>
+        <pathelement location="${lib.home}/JSP_Runtime/javax.jsp_4.0.0.0_2-2.jar"/>
+        <pathelement location="${lib.home}/JSP_Runtime/glassfish.el_1.2.0.0_2-2.jar"/>
+    </path>
+    <path id="library.JSF">
+        <pathelement location="${lib.home}/JSF_2.1/jsf-api.jar"/>
+        <pathelement location="${lib.home}/JSF_2.1/jsf-impl.jar"/>
+    </path>
+    <path id="library.Commons.Digester.1.5">
+        <pathelement location="${lib.home}/Commons.Digester.1.5/commons-digester.jar"/>
+    </path>
+    <path id="library.Commons.Logging.1.0.3">
+        <pathelement location="${lib.home}/Commons.Logging.1.0.3/commons-logging-api.jar"/>
+        <pathelement location="${lib.home}/Commons.Logging.1.0.3/commons-logging.jar"/>
+    </path>
+    <path id="library.Commons.Collections.2.1">
+        <pathelement location="${lib.home}/Commons.Collections.2.1/commons-collections.jar"/>
+    </path>
+    <path id="library.JSTL.1.1">
+        <pathelement location="${lib.home}/JSTL12/glassfish.jstl_1.0.0.0_1-2-2-0.jar"/>
+    </path>
+    <path id="library.ADFFacesRuntime">
+        <pathelement location="${lib.home}/ADFFacesRuntime/trinidad-api.jar"/>
+        <pathelement location="${lib.home}/ADFFacesRuntime/trinidad-impl.jar"/>
+        <pathelement location="${lib.home}/ADFFacesRuntime/adf-richclient-api-11.jar"/>
+        <pathelement location="${lib.home}/ADFFacesRuntime/adf-richclient-impl-11.jar"/>
+    </path>
+    <path id="library.ADF.Common.Runtime">
+        <pathelement location="${lib.home}/AdfCommonsRuntime/trinidad-api.jar"/>
+        <pathelement location="${lib.home}/AdfCommonsRuntime/adf-controller-security.jar"/>
+        <pathelement location="${lib.home}/AdfCommonsRuntime/adf-share-security.jar"/>
+        <pathelement location="${lib.home}/AdfCommonsRuntime/adf-share-base.jar"/>
+        <pathelement location="${lib.home}/AdfCommonsRuntime/adf-share-ca.jar"/>
+        <pathelement location="${lib.home}/AdfCommonsRuntime/adf-share-support.jar"/>
+        <pathelement location="${lib.home}/AdfCommonsRuntime/adflogginghandler.jar"/>
+        <pathelement location="${lib.home}/AdfCommonsRuntime/adfsharembean.jar"/>
+        <pathelement location="${lib.home}/AdfCommonsRuntime/identitystore.jar"/>
+    </path>
+    <path id="library.ADF.Dvt.Faces.Runtime">
+        <pathelement location="${lib.home}/ADFDvtRuntime/dvt-trinidad.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/dvt-utils.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/dvt-basemaps.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/dvt-jclient.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/dvt-trinidad.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/dvt-shared-js.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/dvt-faces.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/prefuse.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-anim.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-awt-util.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-bridge.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-codec.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-css.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-dom.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-ext.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-extension.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-gui-util.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-gvt.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-parser.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-script.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-svg-dom.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-svggen.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-swing.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-transcoder.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-util.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/batik-xml.jar"/>
+        <pathelement location="${lib.home}/ADFDvtRuntime/xml-apis-ext.jar"/>
+    </path>
+    <path id="library.JCaptcha">
+        <pathelement location="${lib.home}/jCaptcha/jcaptcha-1.0-all.jar"/>
+    </path>
+    <path id="library.BotonDePago">
+        <pathelement location="${lib.home}/BotonDePago/cartola.jar"/>
+        <pathelement location="${lib.home}/BotonDePago/resumenypagos.jar"/>
+        <pathelement location="${lib.home}/BotonDePago/xmlmpini.jar"/>
+    </path>
+    <path id="library.ApacheFOP">
+        <pathelement location="${lib.home}/ApacheFOP/avalon-framework-cvs-20020806.jar"/>
+        <pathelement location="${lib.home}/ApacheFOP/fop.jar"/>
+        <pathelement location="${lib.home}/ApacheFOP/commons-io-1.3.1.jar"/>
+    </path>
+    <path id="library.Oracle.XML.Parser.v2">
+        <pathelement location="${lib.home}/Oracle.XML.Parser.v2/oracle.xdk_12.1.3/xmlparserv2.jar"/>
+        <pathelement location="${lib.home}/Oracle.XML.Parser.v2/oracle.xdk_12.1.3/xml.jar"/>
+        <pathelement location="${lib.home}/Oracle.XML.Parser.v2/orai18n-mapping.jar"/>
+    </path>
+    <path id="library.J2EE">
+        <pathelement location="${lib.home}/Weblogic/weblogic.server.merged.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.annotation_1.2.0.0_1-1.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.ejb_3.3.0.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.enterprise.deploy_1.4.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.interceptor_1.3.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.enterprise.inject_1.2.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.inject-1.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.jms_1.1.4.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.jsp_4.0.0.0_2-2.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.mail_2.0.0.0_1-4-4.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.management.j2ee_1.2.0.0.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.persistence_2.0.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.resource_1.7.0.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.security.jacc_1.2.0.0_1-1.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.servlet_2.2.0.0_3-0.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.transaction_2.2.0.0_1-1.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.xml.registry_1.2.0.0_1-0-4.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.validation_1.2.0.jar"/>
+        <pathelement location="${lib.home}/J2EE/jaxrpc-api-1.1.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.xml.stream_1.1.1.0.jar"/>
+        <pathelement location="${lib.home}/J2EE/javax.xml.ws_1.0.0.0_2-2.jar"/>
+    </path>
+    <path id="library.jaxws">
+        <pathelement location="${lib.home}/JAX-WS_CLIENT/weblogic.jar"/>
+        <pathelement location="${lib.home}/JAX-WS_CLIENT/oracle.xdb_12.1.0.jar"/>
+        <pathelement location="${lib.home}/JAX-WS_CLIENT/org.apache.commons.digester_1.8.jar"/>
+        <pathelement location="${lib.home}/JAX-WS_CLIENT/xmlparserv2.jar"/>
+        <pathelement location="${lib.home}/JAX-WS_CLIENT/org.codehaus.woodstox.woodstox-core-asl_4.2.0.jar"/>
+    </path>
+    <path id="library.Log4j">
+        <pathelement location="${lib.home}/Log4j/log4j-1.2.8.jar"/>
+    </path>
+    <path id="library.Dom4j">
+        <pathelement location="${lib.home}/Dom4j/dom4j-1.6.jar"/>
+        <pathelement location="${lib.home}/Dom4j/jaxen-1.1-beta-11.jar"/>
+        <pathelement location="${lib.home}/Dom4j/saxon8-dom.jar"/>
+        <pathelement location="${lib.home}/Dom4j/saxon8.jar"/>
+    </path>
+    <path id="library.Commons.Httpclient.3.0.1">
+        <pathelement location="${lib.home}/Commons.HttpClient.3.0.1/commons-httpclient-3.0.1.jar"/>
+    </path>
+    <path id="library.Commons.ApachePOI">
+        <pathelement location="${lib.home}/ApachePOI/poi-3.6-20091214.jar"/>
+        <pathelement location="${lib.home}/ApachePOI/poi-ooxml-3.6-20091214.jar"/>
+    </path>
+    <path id="library.XmlBeans">
+        <pathelement location="${lib.home}/XmlBeans/jsr173_1.0_api.jar"/>
+        <pathelement location="${lib.home}/XmlBeans/resolver.jar"/>
+        <pathelement location="${lib.home}/XmlBeans/xbean_xpath.jar"/>
+        <pathelement location="${lib.home}/XmlBeans/xbean.jar"/>
+        <pathelement location="${lib.home}/XmlBeans/xmlpublic.jar"/>
+    </path>
+    <path id="library.BancoBICE">
+        <pathelement location="${lib.home}/BancoBICE/boton-pago-bice-1.0.jar"/>
+    </path>
+    <path id="library.Servipag">
+        <pathelement location="${lib.home}/Servipag/webservipagcontextoxml.jar"/>
+        <pathelement location="${lib.home}/Servipag/webservipagxml.jar"/>
+    </path>
+    <path id="library.Xml.Adicional">
+        <pathelement location="${lib.home}/XmlAdicional/mpfin.jar"/>
+        <pathelement location="${lib.home}/XmlAdicional/mpout.jar"/>
+        <pathelement location="${lib.home}/XmlAdicional/mpres.jar"/>
+    </path>
+    <path id="classpath">
+        <pathelement location="../ejbpagobice/classes"/>
+        <pathelement location="../commonpagobice/classes"/>
+        <pathelement location="../xmlservipag/classes"/>
+        <pathelement location="../canastaBotonPago/classes"/>
+        <path refid="library.JSP.Runtime"/>
+        <path refid="library.JSF"/>
+        <path refid="library.Commons.Digester.1.5"/>
+        <path refid="library.Commons.Logging.1.0.3"/>
+        <path refid="library.Commons.Collections.2.1"/>
+        <path refid="library.JSTL.1.1"/>
+        <path refid="library.ADFFacesRuntime"/>
+        <path refid="library.ADF.Common.Runtime"/>
+        <path refid="library.JCaptcha"/>
+        <path refid="library.BotonDePago"/>
+        <path refid="library.ApacheFOP"/>
+        <path refid="library.J2EE"/>
+        <path refid="library.Log4j"/>
+        <path refid="library.Dom4j"/>
+        <path refid="library.jaxws"/>
+        <path refid="library.Commons.Httpclient.3.0.1"/>
+        <path refid="library.Commons.ApachePOI"/>
+        <path refid="library.XmlBeans"/>
+        <path refid="library.BancoBICE"/>
+        <path refid="library.Servipag"/>
+        <path refid="library.Xml.Adicional"/>
+    </path>
+    <target name="init">
+        <tstamp/>
+        <mkdir dir="${output.dir}"/>
+    </target>
+    <target name="all" description="Build the project" depends="compile,copy"/>
+    <target name="clean" description="Clean the project">
+        <delete includeemptydirs="true" quiet="true">
+            <fileset dir="${output.dir}" includes="**/*"/>
+        </delete>
+    </target>
+    <target name="compile" description="Compile Java source files" depends="init">
+        <javac destdir="${output.dir}" classpathref="classpath" debug="${javac.debug}" nowarn="${javac.nowarn}"
+               deprecation="${javac.deprecation}" encoding="Cp1252" source="1.7" target="1.7" memorymaximumsize="512M"
+               fork="true">
+            <src path="src"/>
+        </javac>
+    </target>
+    <target name="copy" description="Copy files to output directory" depends="init">
+        <patternset id="copy.patterns">
+            <include name="**/*.gif"/>
+            <include name="**/*.jpg"/>
+            <include name="**/*.jpeg"/>
+            <include name="**/*.png"/>
+            <include name="**/*.properties"/>
+            <include name="**/*.xml"/>
+            <include name="**/*-apf.xml"/>
+            <include name="**/*.ejx"/>
+            <include name="**/*.xcfg"/>
+            <include name="**/*.cpx"/>
+            <include name="**/*.dcx"/>
+            <include name="**/*.wsdl"/>
+            <include name="**/*.ini"/>
+            <include name="**/*.tld"/>
+            <include name="**/*.tag"/>
+            <include name="**/*.der"/>
+        </patternset>
+        <copy todir="${output.dir}">
+            <fileset dir="src">
+                <patternset refid="copy.patterns"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="war">
+        <war webxml="public_html/WEB-INF/web.xml" destfile="${deploy.dir}/${app.name}WAR.war" duplicate="preserve">
+            <manifest>
+                <attribute name="Created-By" value="ACGP Ingenieria de Software Ltda."/>
+                <attribute name="Class-Path"
+                           value="ejbpagobiceEJB.jar commonpagobiceJAR.jar canastaBPagoJAR.jar sun-jai_codec.jar sun-jai_core.jar cuadraturaspagobiceJAR.jar dom4j-1.6.jar jaxen-1.1-beta-11.jar wsoidbasicJAR.jar wsclientsendmailJAR.jar wsclientseguroconahorroJAR.jar wsclientepolizaJAR.jar wsclientedatosbasicosJAR.jar wsclienteapvJAR.jar wsoidbasicJAR.jar"/>
+            </manifest>
+            <!-- INCLUYE TODO MENOS EL WEB.XML -->
+            <fileset dir="public_html">
+                <exclude name="WEB-INF/web.xml"/>
+                <!-- <exclude name="login.jsp"/>
+          <exclude name="error.jsp"/> -->
+            </fileset>
+            <classes dir="${output.dir}"/>
+            <lib dir="${lib.home}/jCaptcha"/>
+            <lib dir="${lib.home}/BotonDePago"/>
+            <lib dir="${lib.home}/BancoBICE"/>
+            <lib dir="${lib.home}/Servipag"/>
+            <lib dir="${lib.home}/Commons.HttpClient.3.0.1"/>
+            <lib dir="${lib.home}/XmlAdicional"/>
+        </war>
+    </target>
+    <target name="ear">
+        <ear destfile="${deploy.dir}/${app.name}EAR.ear" appxml="src/META-INF/application.xml">
+            <manifest>
+                <attribute name="Created-By" value="ACGP Ingenieria de Software Ltda."/>
+                <attribute name="Fecha" value="${manifest.fecha}"/>
+                <attribute name="Version SVN" value="${svnVersion}"/>
+            </manifest>
+            <metainf dir="src/META-INF"/>
+            <fileset dir="${deploy.dir}" includes="*.jar,${app.name}WAR.war"/>
+            <fileset dir="${lib.home}/BotonDePago" includes="*.jar"/>
+            
+            <fileset dir="${lib.home}/Oracle.XML.Parser.v2" includes="*.jar"/>
+            <fileset dir="${lib.home}/Oracle.XDB.Type" includes="*.jar"/>
+            <fileset dir="${lib.home}/Oracle.XML.Parser.v2" includes="*.jar"/>
+            
+            <fileset dir="${lib.home}/SeguridadBV" includes="*.jar"/>
+            <fileset dir="${lib.home}/ApacheFOP" includes="sun-jai*.jar"/>
+            <fileset dir="${lib.home}/httpcomponents-client" includes="h*.jar"/>
+        </ear>
+    </target>
+    <target name="delete">
+        <delete includeemptydirs="true" quiet="true">
+            <fileset dir="${deploy.dir}" excludes="*.ear"/>
+        </delete>
+    </target>
+</project>

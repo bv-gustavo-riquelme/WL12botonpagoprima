@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle-webservice-clients xmlns:ns1="http://java.sun.com/xml/ns/javaee">
+   <webservice-client>
+      <service-qname namespaceURI="http://ejb.bicevida.cl/" localpart="CuentaDeInversionWebService"/>
+      <port-info>
+         <wsdl-port namespaceURI="http://ejb.bicevida.cl/" localpart="CuentaDeInversionWebServicePort"/>
+         <runtime/>
+         <operations>
+            <operation name="grabarSometimiento"/>
+            <operation name="eliminarSometimiento"/>
+            <operation name="sePuedeEliminarSometimiento"/>
+            <operation name="obtenerInformacionRegimen"/>
+            <operation name="consultaEstructuraFondosPorId"/>
+            <operation name="consultarEstado"/>
+            <operation name="obtenerTodosLosFondosParaSometimiento"/>
+            <operation name="consultaSaldosYFondos"/>
+            <operation name="activarCuenta"/>
+            <operation name="grabarDistribucionFondosAporteExtraordinarioReg"/>
+            <operation name="generaIdAporteReg"/>
+            <operation name="obtenerFondosVigentesV2"/>
+         </operations>
+      </port-info>
+   </webservice-client>
+</oracle-webservice-clients>

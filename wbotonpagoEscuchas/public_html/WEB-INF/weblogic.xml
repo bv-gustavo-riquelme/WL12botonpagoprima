@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'ISO-8859-1'?>
+<weblogic-web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-web-app http://xmlns.oracle.com/weblogic/weblogic-web-app/1.5/weblogic-web-app.xsd"
+                  xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">
+    <context-root>/bp12/wbotonpago</context-root>
+    
+    <container-descriptor>
+        <show-archived-real-path-enabled>true</show-archived-real-path-enabled>
+    </container-descriptor>                  
+    
+    <library-ref>
+        <library-name>log4j_jar</library-name>
+        <specification-version>1.2</specification-version>
+        <implementation-version>1.2.15</implementation-version>
+        <context-root>log4j_jar_BotonPago</context-root>
+    </library-ref>
+    
+    <library-ref>
+        <library-name>apachePoiEar</library-name>
+        <specification-version>3.8</specification-version>
+        <implementation-version>3.8</implementation-version>
+        <context-root>apachePoiEar_BotonPago</context-root>
+    </library-ref>
+    <library-ref>
+        <library-name>ApacheFOP</library-name>
+        <specification-version>1.2</specification-version>
+        <implementation-version>1.2</implementation-version>
+        <context-root>apacheApacheFOP_BotonPago</context-root>
+    </library-ref>
+    <library-ref>
+        <library-name>Jcaptcha-1.0</library-name>
+        <specification-version>1.0</specification-version>
+        <implementation-version>1.0</implementation-version>
+        <context-root>Jcaptcha_BotonPago</context-root>
+    </library-ref>
+    
+    <library-ref>
+        <library-name>Dom4j</library-name>
+        <specification-version>1.6.1</specification-version>
+        <implementation-version>1.6.1</implementation-version>
+        <context-root>Dom4j_BotonPago</context-root>
+    </library-ref>
+    <library-ref>
+        <library-name>commons.codec19</library-name>
+        <specification-version>1.9</specification-version>
+        <implementation-version>1.9</implementation-version>
+        <context-root>commons_codec_BotonPago</context-root>
+    </library-ref>
+    
+    <library-ref>
+        <library-name>jsf</library-name>
+        <specification-version>2.1</specification-version>
+        <implementation-version>2.1.7-01-</implementation-version>
+        <context-root>JSF_BotonPago</context-root>
+    </library-ref>
+    <library-ref>
+        <library-name>adf.oracle.domain</library-name>
+        <context-root>adf.oracle_BotonPago</context-root>
+    </library-ref>
+    <library-ref>
+        <library-name>adf.oracle.domain.webapp</library-name>
+        <context-root>adf.oracle.domain_BotonPago</context-root>
+    </library-ref>
+</weblogic-web-app>

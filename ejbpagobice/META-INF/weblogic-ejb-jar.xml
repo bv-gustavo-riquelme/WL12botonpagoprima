@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'ISO-8859-1'?>
+<weblogic-ejb-jar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar http://xmlns.oracle.com/weblogic/weblogic-ejb-jar/1.4/weblogic-ejb-jar.xsd"
+                  xmlns="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar">
+    <weblogic-enterprise-bean>
+        <ejb-name>MedioPagoElectronicoEJBBean</ejb-name>
+        <stateless-session-descriptor/>
+        <dispatch-policy>BotonPagoWM</dispatch-policy>
+    </weblogic-enterprise-bean>              
+                  
+                  
+</weblogic-ejb-jar>

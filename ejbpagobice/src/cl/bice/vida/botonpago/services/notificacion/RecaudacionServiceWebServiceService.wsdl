@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://webservices.model.integracion.bicevida.cl/" name="RecaudacionServiceWebServiceService" targetNamespace="http://webservices.model.integracion.bicevida.cl/">
+  <types>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap11-enc="http://schemas.xmlsoap.org/soap/encoding/" targetNamespace="http://webservices.model.integracion.bicevida.cl/" elementFormDefault="qualified">
+      <complexType name="InformarRecaudacionIn">
+        <sequence>
+          <element name="callerSystem" type="string" nillable="true"/>
+          <element name="folioPago" type="long" nillable="true"/>
+          <element name="turno" type="dateTime" nillable="true"/>
+          <element name="idTurno" type="long" nillable="true"/>
+          <element name="callerUser" type="string" nillable="true"/>
+          <element name="folioCajaDiario" type="long" nillable="true"/>
+          <element name="usuarioCaja" type="string" nillable="true"/>
+        </sequence>
+      </complexType>
+      <complexType name="ApplicationModelException">
+        <sequence/>
+      </complexType>
+      <element name="informarRecaudacion" type="tns:informarRecaudacion"/>
+      <complexType name="informarRecaudacion">
+        <sequence>
+          <element name="InformarRecaudacionIn_1" type="tns:InformarRecaudacionIn" nillable="true"/>
+        </sequence>
+      </complexType>
+      <element name="informarRecaudacionResponse" type="tns:informarRecaudacionResponse"/>
+      <complexType name="informarRecaudacionResponse">
+        <sequence>
+          <element name="return" type="tns:InformarRecaudacionOut" nillable="true"/>
+        </sequence>
+      </complexType>
+      <complexType name="InformarRecaudacionOut">
+        <sequence>
+          <element name="codigoResultado" type="int" nillable="true"/>
+          <element name="mensajeResultado" type="string" nillable="true"/>
+        </sequence>
+      </complexType>
+      <element name="ApplicationModelExceptionElement" type="tns:ApplicationModelException"/>
+    </schema>
+  </types>
+  <message name="RecaudacionServiceWebService_informarRecaudacion">
+    <part name="parameters" element="tns:informarRecaudacion"/>
+  </message>
+  <message name="RecaudacionServiceWebService_informarRecaudacionResponse">
+    <part name="parameters" element="tns:informarRecaudacionResponse"/>
+  </message>
+  <message name="ApplicationModelException">
+    <part name="ApplicationModelExceptionElement" element="tns:ApplicationModelExceptionElement"/>
+  </message>
+  <portType name="RecaudacionServiceWebService">
+    <operation name="informarRecaudacion">
+      <input message="tns:RecaudacionServiceWebService_informarRecaudacion"/>
+      <output message="tns:RecaudacionServiceWebService_informarRecaudacionResponse"/>
+      <fault name="ApplicationModelException" message="tns:ApplicationModelException"/>
+    </operation>
+  </portType>
+  <binding name="RecaudacionServiceWebServiceSoapHttp" type="tns:RecaudacionServiceWebService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="informarRecaudacion">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+      <fault name="ApplicationModelException">
+        <soap:fault name="ApplicationModelException" use="literal" encodingStyle=""/>
+      </fault>
+    </operation>
+  </binding>
+  <service name="RecaudacionServiceWebServiceService">
+    <port name="RecaudacionService" binding="tns:RecaudacionServiceWebServiceSoapHttp">
+      <soap:address location="http://canis.bicevida.cl:7777/SviNotificationServiceEjbJar/RecaudacionService"/>
+    </port>
+  </service>
+</definitions>

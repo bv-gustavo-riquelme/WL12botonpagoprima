@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<comprobante>  
+ <header>  
+    <formadepago>Banco Chile</formadepago>  
+    <numerotransaccion>1234567</numerotransaccion>  
+    <fechaoperacion>10/10/2008</fechaoperacion> 
+    <horaoperacion>10/10/2008</horaoperacion>  
+    <nombre>MARCELO ALFREDO MALDONADO BUSTOS</nombre>  
+    <rut>13.834.232-8</rut>  
+    <direccion>AVENIDA LAS PERGOLAS AZULES #12323 VILLA ALBERTO LA RRAGUIBEL</direccion>  
+    <comuna>LA FLORIDA</comuna>  
+    <ciudad>SANTIAGO</ciudad>  
+ </header> 
+ <detalle>
+   <row>  
+     <producto>APV</producto> 
+     <tipo>Régimen A</tipo> 
+     <numeropoliza>123456</numeropoliza>  
+     <periodocobertura>Septiembre 2009</periodocobertura>  
+     <primapagouf>43,4789</primapagouf> 
+     <primapagopesos>123.456</primapagopesos> 
+     <saldofavor>0</saldofavor>  
+     <montopagado>123.456</montopagado>  
+   </row> 
+   <row>  
+     <producto>Multivida</producto> 
+     <tipo>Protección y Ahorro</tipo> 
+     <numeropoliza>123456</numeropoliza>  
+     <periodocobertura>Septiembre 2009</periodocobertura>  
+     <primapagouf>43,4789</primapagouf> 
+     <primapagopesos>123.456</primapagopesos> 
+     <saldofavor>0</saldofavor>  
+     <montopagado>123.456</montopagado>  
+   </row> 
+   <row>  
+     <producto>Seguro de Vida Individual</producto> 
+     <tipo>Protección y Ahorro</tipo> 
+     <numeropoliza>123456</numeropoliza>  
+     <periodocobertura>Septiembre 2009</periodocobertura>  
+     <primapagouf>43,4789</primapagouf> 
+     <primapagopesos>123.456</primapagopesos> 
+     <saldofavor>0</saldofavor>  
+     <montopagado>1.123.456</montopagado>  
+   </row>   
+ </detalle>  
+ <footer>  
+   <fechavencimiento>07/08/2008</fechavencimiento>  
+   <totalapagar>350.000</totalapagar>  
+   <numerooperacion>646355</numerooperacion>  
+   <numerocuotas>3</numerocuotas>  
+   <codigoautorizacion>0272622</codigoautorizacion>  
+   <numeroordencompra>1234567890121</numeroordencompra>  
+   <numerotarjeta>7716</numerotarjeta>  
+   <fechabanco>20/11/2008</fechabanco>  
+   <tipocuota>Sin Interes</tipocuota>  
+   <moneda>Pesos</moneda>  
+   <horabanco>15:20:45</horabanco>     
+ </footer>  
+</comprobante>

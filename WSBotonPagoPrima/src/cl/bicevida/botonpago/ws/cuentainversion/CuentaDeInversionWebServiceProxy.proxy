@@ -1,0 +1,320 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jdevws:WebServiceProxy xmlns:jdevws="http://xmlns.oracle.com/jdeveloper/10130/webserviceproxy">
+   <list n="CHILD_NODES">
+      <url path="CuentaDeInversionWebService_Service.xml"/>
+      <url path="types/RetornoGrabarSometimiento.java"/>
+      <url path="types/ConsultarEstadoResponse.java"/>
+      <url path="types/SaldosYFondos.java"/>
+      <url path="types/RetornoActivarCuenta.java"/>
+      <url path="types/ConsultarEstado.java"/>
+      <url path="types/GrabarDistribucionFondosAporteExtraordinarioReg.java"/>
+      <url path="types/DetalleColorRetorno.java"/>
+      <url path="types/GeneraIdAporteReg.java"/>
+      <url path="types/RetornoEliminarSometimiento.java"/>
+      <url path="types/ConsultaSaldosYFondos.java"/>
+      <url path="types/ObtenerFondosVigentesV2Response.java"/>
+      <url path="CuentaDeInversionWebServicePortClient.java"/>
+      <url path="types/ObtenerInformacionRegimen.java"/>
+      <url path="types/GrabarDistribucionFondosAporteExtraordinarioRegResponse.java"/>
+      <url path="types/GrabarSometimientoResponse.java"/>
+      <url path="types/ActivarCuentaResponse.java"/>
+      <url path="types/FondoSometimientoRetorno.java"/>
+      <url path="types/package-info.java"/>
+      <url path="types/ActivarCuenta.java"/>
+      <url path="CuentaDeInversionWebService_Service.java"/>
+      <url path="types/ConsultaSaldosYFondosResponse.java"/>
+      <url path="types/FondoPorcentaje.java"/>
+      <url path="types/ObjectFactory.java"/>
+      <url path="types/FondoW.java"/>
+      <url path="types/ConsultaEstructuraFondosPorIdResponse.java"/>
+      <url path="types/DetalleColor.java"/>
+      <url path="types/ObtenerTodosLosFondosParaSometimientoResponse.java"/>
+      <url path="types/FondoRetorno.java"/>
+      <url path="types/EliminarSometimientoResponse.java"/>
+      <url path="CuentaDeInversionWebService.java"/>
+      <url path="types/ConsultaEstructuraFondosPorId.java"/>
+      <url path="DatoNuloException.java"/>
+      <url path="types/DatoNuloException.java"/>
+      <url path="types/ObtenerInformacionRegimenResponse.java"/>
+      <url path="types/RetGrabadoDistFondo.java"/>
+      <url path="types/EstructuraFondo.java"/>
+      <url path="types/GeneraIdAporteRegResponse.java"/>
+      <url path="types/IdAporte.java"/>
+      <url path="types/ObtenerFondosVigentesV2.java"/>
+      <url path="types/RetornoInformacionRegimen.java"/>
+      <url path="types/ObtenerTodosLosFondosParaSometimiento.java"/>
+      <url path="types/RetornoConsultaEstado.java"/>
+      <url path="types/SePuedeEliminarSometimiento.java"/>
+      <url path="types/GrabarSometimiento.java"/>
+      <url path="types/SePuedeEliminarSometimientoResponse.java"/>
+      <url path="types/EliminarSometimiento.java"/>
+   </list>
+   <hash n="DATA_MODEL">
+      <value n="ATTACHMENT_ENCODING" v="MIME"/>
+      <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy"/>
+      <url n="ORACLE_WEBSERVICES_XML" path="CuentaDeInversionWebService_Service.xml"/>
+      <hash n="PROPERTY_GROUPS">
+         <hash n="WSDL_TO_JAVA_PROPERTIES">
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+            <value n="WSDL2JAVA_DEFAULT_PACKAGE" v="cl.bicevida.botonpago.ws.cuentainversion"/>
+            <value n="WSDL2JAVA_ROOT_VALUE_PACKAGE" v="cl.bicevida.botonpago.ws.cuentainversion.types"/>
+         </hash>
+      </hash>
+      <value n="PROXY_ASYNC_METHODS" v="FOR_NONE"/>
+      <list n="PROXY_CLIENTS">
+         <url path="CuentaDeInversionWebServicePortClient.java"/>
+      </list>
+      <value n="PROXY_MAPPING_URL"/>
+      <hash n="PROXY_PORTS">
+         <hash n="CuentaDeInversionWebServicePort">
+            <value n="ACCESSES_DOC_WRAPPPED" v="true"/>
+            <value n="ACCESSES_RPC_ENCODED" v="false"/>
+            <value n="CLASS_NAME" v="cl.bicevida.botonpago.ws.cuentainversion.CuentaDeInversionWebService"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="CuentaDeInversionWebServicePort"/>
+            <hash n="OPERATIONS">
+               <hash n="activarCuenta">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="consultaEstructuraFondosPorId">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="consultarEstado">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="consultaSaldosYFondos">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="eliminarSometimiento">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="generaIdAporteReg">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="grabarDistribucionFondosAporteExtraordinarioReg">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="grabarSometimiento">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="obtenerFondosVigentesV2">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="obtenerInformacionRegimen">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="obtenerTodosLosFondosParaSometimiento">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="sePuedeEliminarSometimiento">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS">
+               <hash n="WS_POLICY">
+                  <value n="addressing"/>
+                  <hash n="GLOBAL_CONFIG_PROPERTIES"/>
+                  <list n="management"/>
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.policy.PolicyClientModel"/>
+                  <value n="mtom"/>
+                  <hash n="POLICY_OVERRIDE_PROPERTIES"/>
+                  <list n="security"/>
+                  <list n="wsconfig"/>
+                  <value n="wsrm"/>
+               </hash>
+            </hash>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="aplicaciones-desa.bicevida.cl" port="80" path="/si12/WSSegurosConAhorroJAR/CuentaDeInversion"/>
+         </hash>
+      </hash>
+      <value n="PROXY_SERVICE_NAME" v="CuentaDeInversionWebService"/>
+      <value n="PROXY_SERVICE_NAMESPACE" v="http://ejb.bicevida.cl/"/>
+      <url n="PROXY_TARGET_PROJECT" path="../../../../../../WSBotonPagoPrima.jpr"/>
+      <url n="PROXY_WSDL_URL" protocol="http" host="aplicaciones-desa.bicevida.cl" path="/si12/WSSegurosConAhorroJAR/CuentaDeInversion" query="wsdl"/>
+      <hash n="REFERENCED_WEBSERVICE">
+         <list n="BD_">
+            <hash>
+               <value n="BOUND_PORT_TYPE" v="{http://ejb.bicevida.cl/}CuentaDeInversionWebService"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPBinding"/>
+               <value n="NAME" v="{http://ejb.bicevida.cl/}CuentaDeInversionWebServicePortBinding"/>
+               <list n="OP_BINDINGS">
+                  <hash>
+                     <value n="BOUND_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.RetornoGrabarSometimiento.grabarSometimiento.java.lang.Long.java.lang.String.java.lang.Long.java.lang.String.java.lang.String.java.lang.String.java.lang.Long.java.lang.Long.java.lang.String.java.lang.Long.java.lang.Long.java.lang.String.java.lang.String.java.lang.Long.java.lang.Long.java.lang.String.java.lang.String.java.lang.String.java.lang.String.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.RetornoEliminarSometimiento.eliminarSometimiento.java.lang.Long.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.RetornoEliminarSometimiento.sePuedeEliminarSometimiento.java.lang.Long.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="java.util.List&lt;cl.bicevida.botonpago.ws.cuentainversion.types.RetornoInformacionRegimen>.obtenerInformacionRegimen.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.EstructuraFondo.consultaEstructuraFondosPorId.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.RetornoConsultaEstado.consultarEstado.java.lang.Long.java.lang.Long.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="java.util.List&lt;cl.bicevida.botonpago.ws.cuentainversion.types.FondoSometimientoRetorno>.obtenerTodosLosFondosParaSometimiento.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.SaldosYFondos.consultaSaldosYFondos.java.lang.String.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.RetornoActivarCuenta.activarCuenta.java.lang.Long.java.lang.Long.java.lang.String.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.RetGrabadoDistFondo.grabarDistribucionFondosAporteExtraordinarioReg.java.lang.String.java.lang.String.java.lang.String.java.lang.String.double.java.util.List&lt;cl.bicevida.botonpago.ws.cuentainversion.types.FondoPorcentaje>.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.IdAporte.generaIdAporteReg.java.lang.String.java.lang.String.java.lang.String.double.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="java.util.List&lt;cl.bicevida.botonpago.ws.cuentainversion.types.FondoRetorno>.obtenerFondosVigentesV2.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+            </hash>
+         </list>
+         <list n="BINDING_FILES"/>
+         <value n="GUID" v="a9ebfbbb-015e-1000-8003-0a8cd41e668c"/>
+         <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy$ProxyJavaWebService"/>
+         <list n="PO_">
+            <hash>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPPort"/>
+               <value n="NAME" v="CuentaDeInversionWebServicePort"/>
+               <value n="PORT_BINDING_NAME" v="{http://ejb.bicevida.cl/}CuentaDeInversionWebServicePortBinding"/>
+               <list n="PORT_OPS">
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.RetornoGrabarSometimiento.grabarSometimiento.java.lang.Long.java.lang.String.java.lang.Long.java.lang.String.java.lang.String.java.lang.String.java.lang.Long.java.lang.Long.java.lang.String.java.lang.Long.java.lang.Long.java.lang.String.java.lang.String.java.lang.Long.java.lang.Long.java.lang.String.java.lang.String.java.lang.String.java.lang.String.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.RetornoEliminarSometimiento.eliminarSometimiento.java.lang.Long.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.RetornoEliminarSometimiento.sePuedeEliminarSometimiento.java.lang.Long.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="java.util.List&lt;cl.bicevida.botonpago.ws.cuentainversion.types.RetornoInformacionRegimen>.obtenerInformacionRegimen.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.EstructuraFondo.consultaEstructuraFondosPorId.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.RetornoConsultaEstado.consultarEstado.java.lang.Long.java.lang.Long.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="java.util.List&lt;cl.bicevida.botonpago.ws.cuentainversion.types.FondoSometimientoRetorno>.obtenerTodosLosFondosParaSometimiento.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.SaldosYFondos.consultaSaldosYFondos.java.lang.String.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.RetornoActivarCuenta.activarCuenta.java.lang.Long.java.lang.Long.java.lang.String.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.RetGrabadoDistFondo.grabarDistribucionFondosAporteExtraordinarioReg.java.lang.String.java.lang.String.java.lang.String.java.lang.String.double.java.util.List&lt;cl.bicevida.botonpago.ws.cuentainversion.types.FondoPorcentaje>.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="cl.bicevida.botonpago.ws.cuentainversion.types.IdAporte.generaIdAporteReg.java.lang.String.java.lang.String.java.lang.String.double.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="java.util.List&lt;cl.bicevida.botonpago.ws.cuentainversion.types.FondoRetorno>.obtenerFondosVigentesV2.java.lang.Long"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+               <url n="URL" protocol="http" host="aplicaciones-desa.bicevida.cl" port="80" path="/si12/WSSegurosConAhorroJAR/CuentaDeInversion"/>
+            </hash>
+         </list>
+         <hash n="PROPERTY_GROUPS">
+            <hash n="WSDL_TO_JAVA_PROPERTIES">
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+               <value n="WSDL2JAVA_DEFAULT_PACKAGE" v="cl.bicevida.botonpago.ws.cuentainversion"/>
+               <value n="WSDL2JAVA_ROOT_VALUE_PACKAGE" v="cl.bicevida.botonpago.ws.cuentainversion.types"/>
+            </hash>
+         </hash>
+         <list n="PT_">
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{http://ejb.bicevida.cl/}CuentaDeInversionWebService"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="cl.bicevida.botonpago.ws.cuentainversion.CuentaDeInversionWebServiceImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="cl.bicevida.botonpago.ws.cuentainversion.CuentaDeInversionWebService"/>
+               <value n="PT_TOP_DOWN_GENERATED_SEI_NAME" v="cl.bicevida.botonpago.ws.cuentainversion.CuentaDeInversionWebService"/>
+            </hash>
+         </list>
+         <url n="TARGET_PROJECT" path="../../../../../../WSBotonPagoPrima.jpr"/>
+         <value n="WS_ORIG_GEN_DIRECTION" v="TOP_DOWN"/>
+         <value n="WS_TARGET_NAMESPACE" v="http://ejb.bicevida.cl/"/>
+         <value n="WS_URI" v="CuentaDeInversionWebService"/>
+         <url n="WS_WSDL_FILE" protocol="http" host="aplicaciones-desa.bicevida.cl" path="/si12/WSSegurosConAhorroJAR/CuentaDeInversion" query="wsdl"/>
+      </hash>
+      <value n="SERVICE_ASYNC" v="false"/>
+      <value n="WSDL_IS_LOCAL_COPY" v="false"/>
+   </hash>
+</jdevws:WebServiceProxy>
